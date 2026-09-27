@@ -1,4 +1,4 @@
-# Dual-Band MIMO Antenna with Enhanced Isolation for Sub-6 GHz 5G and Wi-Fi Applications
+# Single-Layer High-Isolation Dual-Band MIMO Antenna for Sub-6 GHz 5G and WiFi Applications
 
 **Submission ID:** 11038  
 **Journal:** *IEEE Latin America Transactions* (Accepted)
@@ -20,7 +20,34 @@
 - **Quyen Nguyen-Xuan** – *School of Electrical and Electronic Engineering, Hanoi University of Science and Technology (HUST), Hanoi, Vietnam*  
   Email: `quyen.nguyenxuan@hust.edu.vn`
 - **Cuong Do-Manh** *(Corresponding Author)* – *PHENIKAA School of Engineering, PHENIKAA University, Hanoi 12116, Vietnam*  
-  Email: `cuong.domanh@phenikaa-uni.edu.vn`
+  Email: `duong.domanh@phenikaa-uni.edu.vn`
+
+---
+
+## 📌 Abstract & Highlights
+
+> **Abstract:** This paper presents a single-layer dual-band multiple-input-multiple-output (MIMO) antenna with high isolation characteristics for Sub-6 GHz n79 5G NR and 5-GHz WiFi applications. The dual-band MIMO element consists of four-square patches with embedded slots, which are capacitively excited by a probe-fed patch at the center. To achieve high isolation, shorting vias are employed to produce a transmission zero for mutual coupling reduction at both operating bands. The proposed two-port antenna achieves an overall size of $0.94\lambda \times 0.47\lambda \times 0.02\lambda$ at the lowest band of 4.6 GHz. Experimental results show measured bandwidths of 2.8% (4.62 – 4.75 GHz) and 3.9% (5.50 – 5.72 GHz) for the lower and upper bands, respectively. The antenna consistently provides more than 25 dB isolation, together with gains of 4.8–5.4 dBi at the lower band and 5.2–6.8 dBi at the higher band. The proposed design can support selected Sub-6 GHz 5G and WiFi operation, where channel bandwidths up to 100 and 160 MHz, respectively.
+
+### 🌟 Key Highlights
+- **Single-Layer & Low Profile:** Fabricated on Taconic RF-35 substrate ($\varepsilon_r = 3.5$, $\tan\delta = 0.0018$, thickness $t = 1.5\text{ mm}$), compact dimensions of $60 \times 30 \times 1.5\text{ mm}^3$ ($0.94\lambda \times 0.47\lambda \times 0.02\lambda$ at 4.6 GHz).
+- **Independent Dual-Band Operation:** Sub-6 GHz n79 5G NR ($4.62 - 4.75\text{ GHz}$) and 5-GHz WLAN/WiFi ($5.50 - 5.72\text{ GHz}$).
+- **Transmission Zero Decoupling:** Shorting vias act as reactive loading elements to bring even- and odd-mode reflection coefficients into equality ($\Gamma_e \approx \Gamma_o$), creating dual transmission zeros.
+- **Superior Isolation:** Measured $29 - 43\text{ dB}$ (lower band) and $25 - 33\text{ dB}$ (upper band).
+- **Excellent MIMO Diversity:** Envelope Correlation Coefficient ($\text{ECC} < 0.005$), Channel Capacity Loss ($\text{CCL} < 0.4\text{ bits/s/Hz}$), Mean Effective Gain ($\text{MEG} \approx -3\text{ dB}$), and $\text{TARC} < -10\text{ dB}$.
+
+---
+
+## 📊 Performance Summary
+
+| Parameter | Lower Band (Sub-6 GHz 5G NR n79) | Upper Band (5-GHz WiFi / WLAN) |
+| :--- | :---: | :---: |
+| **Operating Frequency** | $4.62 - 4.75\text{ GHz}$ ($130\text{ MHz}$) | $5.50 - 5.72\text{ GHz}$ ($220\text{ MHz}$) |
+| **Fractional Bandwidth** | $2.8\%$ | $3.9\%$ |
+| **Port Isolation ($|S_{21}|$)** | $> 29\text{ dB}$ (Peak $43\text{ dB}$) | $> 25\text{ dB}$ (Peak $33\text{ dB}$) |
+| **Peak Realized Gain** | $4.8 - 5.4\text{ dBi}$ | $5.2 - 6.8\text{ dBi}$ |
+| **Radiation Efficiency** | $\approx 90\%$ | $\approx 90\%$ |
+| **Envelope Correlation Coeff. (ECC)** | $< 0.005$ | $< 0.005$ |
+| **Channel Capacity Loss (CCL)** | $< 0.4\text{ bits/s/Hz}$ | $< 0.4\text{ bits/s/Hz}$ |
 
 ---
 
@@ -88,4 +115,3 @@ This research was funded and supported by the **Vietnam National Foundation for 
 ## 📄 License
 
 The datasets, simulation files, and documentation in this repository are released under the [MIT License](LICENSE) for open academic and research use.
-```
