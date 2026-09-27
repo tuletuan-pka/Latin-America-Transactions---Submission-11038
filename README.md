@@ -24,10 +24,6 @@
 
 ---
 
-## 📌 Abstract & Highlights
-
-> **Abstract:** This paper presents a single-layer dual-band multiple-input-multiple-output (MIMO) antenna with high isolation characteristics for Sub-6 GHz n79 5G NR and 5-GHz WiFi applications. The dual-band MIMO element consists of four-square patches with embedded slots, which are capacitively excited by a probe-fed patch at the center. To achieve high isolation, shorting vias are employed to produce a transmission zero for mutual coupling reduction at both operating bands. The proposed two-port antenna achieves an overall size of $0.94\lambda \times 0.47\lambda \times 0.02\lambda$ at the lowest band of 4.6 GHz. Experimental results show measured bandwidths of 2.8% (4.62 – 4.75 GHz) and 3.9% (5.50 – 5.72 GHz) for the lower and upper bands, respectively. The antenna consistently provides more than 25 dB isolation, together with gains of 4.8–5.4 dBi at the lower band and 5.2–6.8 dBi at the higher band. The proposed design can support selected Sub-6 GHz 5G and WiFi operation, where channel bandwidths up to 100 and 160 MHz, respectively.
-
 ### 🌟 Key Highlights
 - **Single-Layer & Low Profile:** Fabricated on Taconic RF-35 substrate ($\varepsilon_r = 3.5$, $\tan\delta = 0.0018$, thickness $t = 1.5\text{ mm}$), compact dimensions of $60 \times 30 \times 1.5\text{ mm}^3$ ($0.94\lambda \times 0.47\lambda \times 0.02\lambda$ at 4.6 GHz).
 - **Independent Dual-Band Operation:** Sub-6 GHz n79 5G NR ($4.62 - 4.75\text{ GHz}$) and 5-GHz WLAN/WiFi ($5.50 - 5.72\text{ GHz}$).
